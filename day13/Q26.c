@@ -20,7 +20,8 @@ int main(){
     printf("Enter a number: ");
     scanf("%d", &n);
     for(int i=1; i<=n; i++){
-        printf("%d\n", i);
+        printf("%d\t", i);
     }
 return 0;
+
 }
